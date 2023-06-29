@@ -1,0 +1,47 @@
+{
+    "type": "minecraft:generic",
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:firework_star"
+          }
+        ]
+      }
+    ],
+    "functions": [
+      {
+        "function": "minecraft:set_nbt",
+        "tag": "{KotaServer:{Id:\"dragon_shard\",Custom:{Growing:{},Flags:[CanGrow]}},CustomModelData:10101}"
+      },
+      {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": {
+          "text": "ドラゴンシャード",
+          "color": "light_purple",
+          "italic": false
+        }
+      },
+      {
+        "function": "minecraft:set_lore",
+        "entity": "this",
+        "lore": [
+          [
+            {
+              "text": "成長率: ",
+              "color": "gray",
+              "italic": false
+            },
+            {
+              "text": "0%",
+              "color": "green"
+            }
+          ]
+        ]
+      }
+    ]
+  }
+  
