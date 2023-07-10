@@ -1,8 +1,7 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "nbt": "{Item:{tag:{KotaServer:{Flags:[CanGrow]}}}}"
-    }
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "nbt": "{Item:{tag:{KotaServer:{Custom:{Flags:[CanGrow]}}}}}"
   }
-  
+}

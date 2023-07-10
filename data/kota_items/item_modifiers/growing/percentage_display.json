@@ -1,0 +1,25 @@
+[
+    {
+      "function": "minecraft:set_lore",
+      "entity": "this",
+      "lore": [
+        [
+          {
+            "translate": "kota-items.generic.growth_percentage_lore",
+            "with": [
+              {
+                "nbt": "Growing.ItemData.KotaServer.Custom.Growing.GrowthLore",
+                "storage": "kota_items:temp",
+                "color": "green",
+                "bold": true,
+                "interpret": true,
+                "italic": false
+              }
+            ]
+          }
+        ]
+      ],
+      "replace": false
+    }
+  ]
+  
