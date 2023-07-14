@@ -14,13 +14,13 @@
     "functions": [
       {
         "function": "minecraft:set_nbt",
-        "tag": "{KotaServer:{Id:\"crystal_shard\",Custom:{Growing:{Level:0s},Flags:[CanGrow]}},CustomModelData:10201}"
+        "tag": "{KotaServer:{Id:\"crystal_shard\",Custom:{Growing:{Level:0s},Flags:[CanGrow]}},CustomModelData:2010011}"
       },
       {
         "function": "minecraft:set_name",
         "entity": "this",
         "name": {
-          "translate": "kota-items.misc.crystal_shard.name"
+          "translate": "kota-items.misc.crystal_shard.name_0"
         }
       },
       {
@@ -29,7 +29,7 @@
         "lore": [
           [
             {
-              "translate": "kota-items.misc.crystal_shard.lore"
+              "translate": "kota-items.misc.crystal_shard.lore_0"
             }
           ]
         ]
